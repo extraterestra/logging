@@ -1,0 +1,21 @@
+Positive
+1. Verify new <file_name>.log file created if output file <file_name>.log does not exist
+2. Verify several new files created accordingly for each <file_name_1>.log and <file_name_2>.log if they did not exist before
+3. Verify new lines with log added in each file accordingly if these files already exist
+4. Verify new log lines added and not overwrite existent lines in existent file <file_name>.log  each time function 'log_message' is called
+5. Verify time stamp of event format returned in required format
+6. Verify if valid log level provided as input it is written correctly in log line in corresponding log output file
+7. Verify logging message written correctly in log line in corresponding log output file
+
+Negative
+1. Verify case with not existent log level value: log error should be ERROR with message:
+"not existent log level <INVALID LOG LEVEL>" and then message value
+2. Verify case with null value for log level
+3. Verify case with empty value for log level
+4. Verify case with empty value for message
+5. Verify case with null value for message
+6. Verify case with int value for message
+7. Verify massage value written in output log file works according to requirements for its length
+
+
+

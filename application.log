@@ -1,0 +1,3 @@
+[2024-03-20 15:13:56] [INFO] User logged in
+[2024-03-20 15:13:56] [LogLevel.ERROR] not existent log level INVALID Bla bla
+[2024-03-20 15:13:56] [LogLevel.ERROR] not existent log level  Empty error level
