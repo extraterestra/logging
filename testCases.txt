@@ -15,7 +15,7 @@ Negative
 4. Verify case with empty value for message
 5. Verify case with null value for message
 6. Verify case with int value for message
-7. Verify massage value written in output log file works according to requirements for its length
+7. Verify message value written in output log file works according to requirements for its length
 
 
 
